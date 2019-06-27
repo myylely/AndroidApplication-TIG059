@@ -13,7 +13,7 @@ android:layout_height="wrap_content">
         android:layout_marginLeft="4dp"
         android:layout_marginRight="4dp"
         android:layout_marginBottom="4dp"
-        android:hint="minimum alcohol, eg 4.0" />
+        android:hint="Please enter minimum alcohol" />
     <EditText
         android:id="@+id/max_alco_input"
         android:inputType="numberDecimal"
@@ -23,7 +23,7 @@ android:layout_height="wrap_content">
         android:layout_marginLeft="4dp"
         android:layout_marginRight="4dp"
         android:layout_marginBottom="4dp"
-        android:hint="maximum alcohol, e g 5.0" />
+        android:hint="Please enter maximum alcohol" />
     <EditText
         android:id="@+id/min_price_input"
         android:inputType="numberDecimal"
@@ -33,7 +33,7 @@ android:layout_height="wrap_content">
         android:layout_marginLeft="4dp"
         android:layout_marginRight="4dp"
         android:layout_marginBottom="4dp"
-        android:hint="minimum price, e g 12" />
+        android:hint="Please enter minimum price" />
     <EditText
         android:id="@+id/max_price_input"
         android:inputType="numberDecimal"
@@ -43,6 +43,6 @@ android:layout_height="wrap_content">
         android:layout_marginLeft="4dp"
         android:layout_marginRight="4dp"
         android:layout_marginBottom="4dp"
-        android:hint="maximum price, e g 19" />
+        android:hint="Please enter maximum price" />
 
 </LinearLayout>
